@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="card" id="card">
+        <h3>Circulo</h3><br>
+        <img src="img/circulo.png" alt="circulo"><br>
+        <button id="a1" > <a href="#ma1"> Calcular area</a></button><br><br>
+        <button id="p1"><a href="#mp1">Calcular perimetro</a></button>
+    </div>
+    <div class="card" id="card">
+        <h3>Triángulo</h3><br>
+        <img src="img/triangulo.png" alt="triangulo"><br>
+        <button id="a2"><a href="#ma2">Calcular area</a></button><br><br>
+        <button id="p2"><a href="#mp2">Calcular perimetro</a></button>
+    </div>
+    <div class="card" id="card">
+        <h3>Rectángulo</h3><br>
+        <img src="img/rectangulo.jpg" alt="rectangulo"><br>
+        <button id="a3"><a href="#ma3">Calcular area</a></button><br><br>
+        <button id="p3"><a href="#mp3">Calcular perimetro</a></button>
+    </div>
+    <div class="card" id="card">
+        <h3>Cuadrado</h3><br>
+        <img src="img/cuadrado.jpg" alt="Cuadrado"><br>
+        <button id="a4"><a href="#ma4">Calcular area</a></button><br><br>
+        <button id="p4"><a href="#mp4">Calcular perimetro</a></button>
+    </div>
+
+    <!-- MODALES -->
+
+    <!-- CIRCULO -->
+    <div class="ModalDialog" id="ma1">
+        <button href="#close" title="Close" class="close" id="cma1">X</button>
+        <h1>Calcular aréa del circulo</h1>
+        <label for="">Ingrese el radio:</label><br>
+        <input type="number" name="" id="arc"><br><br>
+        <button id="calarea1">Calcular</button>
+
+    </div>
+    <div class="ModalDialog" id="mp1">
+        <button href="#close" title="Close" class="close" id="cmp1">X</button>
+        <h1>Calcular perimetro del circulo</h1>
+        <label for="">Ingrese el radio:</label><br>
+        <input type="number" name="" id="pec"><br><br>
+        <button id="calperimetro1">Calcular</button>
+
+    </div>
+
+    <!-- TRIANGULO -->
+    <div class="ModalDialog" id="ma2">
+        <button href="#close" title="Close" class="close" id="cma2">X</button>
+        <h1>Calcular aréa del triangulo</h1>
+        <label for="">Ingrese la base:</label><br>
+        <input type="number" name="" id="bt"><br><br>
+        <label for="">Ingrese la altura:</label><br>
+        <input type="number" name="" id="at"><br><br>
+        <button id="calarea2">Calcular</button>
+
+    </div>
+    <div class="ModalDialog" id="mp2">
+        <button href="#close" title="Close" class="close" id="cmp2">X</button>
+        <h1>Calcular perimetro del triangulo</h1>
+        <label for="">Ingrese el primer lado:</label><br>
+        <input type="number" name="" id="l1"><br><br>
+        <label for="">Ingrese el segundo lado:</label><br>
+        <input type="number" name="" id="l1"><br><br>
+        <label for="">Ingrese el tercer lado:</label><br>
+        <input type="number" name="" id="l3"><br><br>
+        
+        <button id="calperimetro2">Calcular</button>
+
+    </div>
+
+    <!-- RECTANGULO -->
+    <div class="ModalDialog" id="ma3">
+        <button href="#close" title="Close" class="close" id="cma3">X</button>
+        <h1>Calcular aréa del rectangulo</h1>
+        <label for="">Ingrese la base:</label><br>
+        <input type="number" name="" id="br"><br><br>
+        <label for="">Ingrese la altura:</label><br>
+        <input type="number" name="" id="ar"><br><br>
+        <button id="calarea3">Calcular</button>
+
+    </div>
+    <div class="ModalDialog" id="mp3">
+        <button href="#close" title="Close" class="close" id="cmp3">X</button>
+        <h1>Calcular perimetro del rectangulo</h1>
+        <label for="">Ingrese la base:</label><br>
+        <input type="number" name="" id="br2"><br><br>
+        <label for="">Ingrese la altura:</label><br>
+        <input type="number" name="" id="ar2"><br><br>
+        
+        <button id="calperimetro3">Calcular</button>
+
+    </div>
+
+    <!-- CUADRADO -->
+    <div class="ModalDialog" id="ma4">
+        <button href="#close" title="Close" class="close" id="cma4">X</button>
+        <h1>Calcular aréa del cuadrado</h1>
+        <label for="">Ingrese el lado:</label><br>
+        <input type="number" name="" id="lc"><br><br>
+        <button id="calarea4">Calcular</button>
+
+    </div>
+    <div class="ModalDialog" id="mp4">
+        <button href="#close" title="Close" class="close" id="cmp4">X</button>
+        <h1>Calcular perimetro del cuadrado</h1>
+        <label for="">Ingrese el lado:</label><br>
+        <input type="number" name="" id="lc2"><br><br>
+        
+        <button id="calperimetro4">Calcular</button>
+
+    </div>
+    <script src="../js/ejercicio5.js"></script>
+</body>
+</html>
